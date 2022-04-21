@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Eulyoo1945-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff');
+
+* {
+    font-family: 'Eulyoo1945-SemiBold';
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    background-color: #362D2E;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+a:link{
+    color : white;
+    text-decoration-line: none;
+}
+
+a:visited{
+    color : white;
+    text-decoration-line: none;
+}
+
+a:hover{
+    color : gold;
+}
+
+.career{
+    margin: 0;
+}
+
+.content_wrap{
+    text-align: center;
+    color: white;
+}
+
+.school{
+    color: white;
+    width: 80px;
+    height: 140px;;
+    margin: auto;
+}
+
+.school:hover{
+    color: #6CA1BF;
+    text-decoration: underline;
+}
+
+.school_content{
+    width: 300px;
+    position: relative;
+    right: 330px;
+    bottom: 50px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.university{
+    color: white;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.university:hover{
+    color: #507EBC;
+    text-decoration: underline;
+}
+
+.university_content{
+    width: 300px;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.army{
+    color: white;
+    width: 80px;
+    margin: auto;
+}
+
+.army:hover{
+    color: #C7C8C2;
+    text-decoration: underline;
+}
+
+.army_content{
+    width: 300px;
+    position: relative;
+    right: 330px;
+    bottom: 50px;
+    font-size: 15px;
+    text-align: right;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 7px;
+    background-color: white;
+    color : #362D2E;
+    font-size: 10px;;
+    text-align: center;
+}
